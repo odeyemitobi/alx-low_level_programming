@@ -1,8 +1,8 @@
-#include<studio.h>
+#include <studio.h>
+
 /**
- * main - Entry point
- *
- * Return: Always 0 (Success)
+ * main - this is the main put function
+ * Return: 0
  */
 int main(void)
 {
