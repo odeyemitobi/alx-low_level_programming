@@ -8,11 +8,11 @@
  */
 size_t print_listint(const listint_t *h)
 {
-size_t nofnodes = 0;
-for (; h != NULL; h = h->next)
-{
-printf("%d\n", h->n);
-nofnodes++;
-}
-return (nofnodes);
+    size_t nofnodes = 0;
+    for (; h != NULL; h = h->next)
+    {
+        printf("%d\n", h->n);
+        nofnodes++;
+    }
+    return (nofnodes);
 }
